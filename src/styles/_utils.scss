@@ -1,0 +1,41 @@
+$extraLarge: 1250px;
+@mixin extraLarge {
+    @media (max-width: #{$extraLarge}) {
+        @content;
+    }
+}
+
+$large: 1120px;
+@mixin large {
+    @media (max-width: #{$large}) {
+        @content;
+    }
+}
+
+$carousel: 890px;
+@mixin carousel {
+    @media (max-width: #{$carousel}) {
+        @content;
+    }
+}
+
+$medium: 720px;
+@mixin medium {
+    @media (max-width: #{$medium}) {
+        @content;
+    }
+}
+
+$small: 540px;
+@mixin small {
+    @media (max-width: #{$small}) {
+        @content;
+    }
+}
+
+$extraSmall: 400px;
+@mixin extraSmall {
+    @media (max-width: #{$extraSmall}) {
+        @content;
+    }
+}

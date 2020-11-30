@@ -1,0 +1,36 @@
+#carouselSurf, #carouselMariposa, #carouselLandie{
+    display: none;
+
+    @include carousel {
+        display: initial;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+.arrow{
+    color: rgb(138, 139, 150);
+    font-size: 25px;
+}
+
+.carousel .carousel-indicators li {
+    transform: translateY(55px);
+    border: 1px solid rgba(70, 70, 70, 0.25);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+
+    @include medium {
+        width: 10px;
+        height: 10px;
+    }
+
+    @include small {
+        width: 8px;
+        height: 8px;     
+    }
+  }
+
+.carousel .carousel-indicators .active {
+background-color: rgb(92, 91, 91);
+}

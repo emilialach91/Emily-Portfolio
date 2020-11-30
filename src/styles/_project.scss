@@ -1,0 +1,366 @@
+.project {
+    width: 100%;
+    padding: 100px 0;
+
+    @include extraLarge {
+        padding: 70px 0;
+    }
+
+    @include carousel {
+        padding: 40px 0;
+    }
+
+    &__title {
+        padding: 20px 0 0 100px;
+        transform: translateY(-40px);
+        font-family: 'Lato';
+        font-size: 30px;
+        width: 100%;
+    
+        @include extraLarge {
+            transform: translateY(-20px);
+            padding: 20px 0 0 0;
+            text-align: center;
+        }
+
+        @include medium {
+            transform: translateY(-20px);
+            font-size: 25px;
+        }
+    }
+
+    &__name {
+        padding-bottom: 40px;
+        font-family: 'Lato';
+        font-size: 20px;
+
+        @include large {
+            padding-bottom: 20px;
+        }
+    }
+    
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 100px;
+
+        @include extraLarge {
+           flex-direction: column;
+           align-items: center;
+        }
+
+        @include medium {
+            margin: 0 30px;
+        }
+        @include small {
+            margin: 0 20px;
+        }
+    }
+
+    &__container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    &__description {
+        max-width: 450px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        letter-spacing: 1.6px;
+        line-height: 1.2;
+        text-align: justify;
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include extraLarge {
+            max-width:800px;
+            height: auto;
+            margin-bottom: 30px;
+         }
+
+         @include small {
+             font-size: 15px;
+         }
+    }
+}
+
+.surf {
+    min-width: 708px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+
+    @include large {
+        width: 708px;
+        margin: 20px 0 0 0;
+    }
+
+    @include carousel {
+        display: none;
+    }
+
+    &__rowTop {
+        height: 232px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__topLeft {
+        width: 454px;
+        height: 100%;
+        background-image: url('../images/home.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__topRight{
+        width: 225px;
+        height: 100%;
+        background-image: url('../images/home-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__rowBottom {
+        height: 220px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__bottomLeft {
+        width: 336px;
+        height: 100%;
+        background-image: url('../images/pricing.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__bottomRight{
+        width: 342px;
+        height: 100%;
+        background-image: url('../images/teachers.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+}
+
+.surf__topLeft:hover, 
+.surf__topRight:hover, 
+.surf__bottomLeft:hover,
+.surf__bottomRight:hover{
+    transform: scale(1.05);  
+}
+
+.mariposa {
+    min-width: 698px;
+    height: 473px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+
+    @include large {
+        width: 698px;
+        margin: 20px 0 0 0;
+    }
+
+    @include carousel {
+        display: none;
+    }
+
+    &__left {
+        height: 100%;
+        width: 394px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__topLeft {
+        width: 100%;
+        height: 226px;
+        background-image: url('../images/mariposaTopLeft.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__bottomLeft{
+        width: 100%;
+        height: 218px;
+        background-image: url('../images/mariposaBottomLeft.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__right {
+        height: 100%;
+        width: 269px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__topRight {
+        width: 100%;
+        height: 262px;
+        background-image: url('../images/mariposaTopRight.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__bottomRight{
+        width: 100%;
+        height: 180px;
+        background-image: url('../images/mariposaBottomRight.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+}
+
+.mariposa__topLeft:hover, 
+.mariposa__bottomLeft:hover, 
+.mariposa__topRight:hover,
+.mariposa__bottomRight:hover{
+    transform: scale(1.05);  
+}
+
+.landie {
+    min-width: 706px;
+    height: 473px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    
+    @include large {
+        width: 706px;
+        margin: 20px 0 0 0;
+    }
+
+    @include carousel {
+        display: none;
+    }
+
+    &__left {
+        height: 100%;
+        width: 422px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__topLeft {
+        width: 100%;
+        height: 195px;
+        background-image: url('../images/landieTopLeft.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__bottomLeft{
+        width: 100%;
+        height: 246px;
+        background-image: url('../images/landieBottomLeft.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__right {
+        height: 100%;
+        width: 255px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__topRight {
+        width: 100%;
+        height: 238px;
+        background-image: url('../images/landieTopRight.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__bottomRight{
+        width: 100%;
+        height: 205px;
+        background-image: url('../images/landieBottomRight.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+}
+
+.landie__topLeft:hover, 
+.landie__bottomLeft:hover, 
+.landie__topRight:hover,
+.landie__bottomRight:hover{
+    transform: scale(1.05); 
+}
+
+.project__row--reverse{
+
+    @include extraLarge {
+        flex-direction: column-reverse;
+     }
+
+     @include carousel{
+        flex-direction: column;
+     }
+}
+
+.project--background{
+    background-color: rgb(247, 252, 252);
+    box-shadow: 0px -2px 20px rgb(234, 235, 238), 0px 2px 20px rgb(234, 235, 238);;
+}
+
+.divLink {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+

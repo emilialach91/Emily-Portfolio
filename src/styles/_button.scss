@@ -1,0 +1,109 @@
+.project__links {
+    display: flex;
+    flex-direction: row;
+    max-width: 450px;
+    justify-content: space-around;
+    margin-bottom: 60px;
+
+  @include extraLarge {
+    display: none;
+  }
+}
+
+.project__linksMobile {
+  display: none;
+
+  @include extraLarge  {
+    font-family: 'Lato';
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    justify-content: space-between;
+    margin: 40px auto 0 auto;
+  }
+
+  @include carousel {
+    width: 350px;
+  }
+
+  @include small {
+    width: 300px;
+  }
+
+  @include extraSmall {
+    flex-direction: column;
+    align-items: center;
+    margin: 25px auto 0 auto;
+  }
+}
+
+.project__button {
+    display: block;
+    text-align: center;
+    width: 130px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 300;
+    color:  black;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Lato';
+
+    @include small {
+      height: 50px;
+      width: 115px;
+      font-size: 15px;
+    }
+
+    @include extraSmall {
+       margin-top: 10px;
+
+    }
+}
+    
+.project__button.effect.effect::after, .project__button.effect.effect::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    border: 1px solid;
+    transition: all 0.5s ease;
+    border-radius: 2px;
+  }
+
+.project__button.effect.effect::after {
+  bottom: 3px;
+  right: 3px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color:#223636 ;
+  border-right-color:#223636 ;
+}
+
+.project__button.effect.effect::before {
+  top: 3px;
+  left: 3px;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color:#223636 ;
+  border-left-color:#223636 ;
+}
+
+.project__button.effect.effect:hover:after, .project__button.effect.effect:hover:before {
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.project__button:focus, .hero__item:focus{
+  outline: none;
+}
