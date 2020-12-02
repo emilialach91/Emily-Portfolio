@@ -14,7 +14,7 @@ html {
 
 .hero {
   height: 100vh;
-  background-image: url("../images/background-hero.png");
+  background-image: url("./images/background-hero.png");
   background-size: cover;
   background-position: 50% 60%;
   background-repeat: no-repeat;
@@ -461,7 +461,7 @@ html {
 .surf__topLeft {
   width: 454px;
   height: 100%;
-  background-image: url("../images/home.png");
+  background-image: url("./images/home.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -473,7 +473,7 @@ html {
 .surf__topRight {
   width: 225px;
   height: 100%;
-  background-image: url("../images/home-mobile.png");
+  background-image: url("./images/home-mobile.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -500,7 +500,7 @@ html {
 .surf__bottomLeft {
   width: 336px;
   height: 100%;
-  background-image: url("../images/pricing.png");
+  background-image: url("./images/pricing.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -512,7 +512,7 @@ html {
 .surf__bottomRight {
   width: 342px;
   height: 100%;
-  background-image: url("../images/teachers.png");
+  background-image: url("./images/teachers.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -576,7 +576,7 @@ html {
 .mariposa__topLeft {
   width: 100%;
   height: 226px;
-  background-image: url("../images/mariposaTopLeft.png");
+  background-image: url("./images/mariposaTopLeft.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -588,7 +588,7 @@ html {
 .mariposa__bottomLeft {
   width: 100%;
   height: 218px;
-  background-image: url("../images/mariposaBottomLeft.png");
+  background-image: url("./images/mariposaBottomLeft.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -615,7 +615,7 @@ html {
 .mariposa__topRight {
   width: 100%;
   height: 262px;
-  background-image: url("../images/mariposaTopRight.png");
+  background-image: url("./images/mariposaTopRight.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -627,7 +627,7 @@ html {
 .mariposa__bottomRight {
   width: 100%;
   height: 180px;
-  background-image: url("../images/mariposaBottomRight.png");
+  background-image: url("./images/mariposaBottomRight.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -691,7 +691,7 @@ html {
 .landie__topLeft {
   width: 100%;
   height: 195px;
-  background-image: url("../images/landieTopLeft.png");
+  background-image: url("./images/landieTopLeft.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -703,7 +703,7 @@ html {
 .landie__bottomLeft {
   width: 100%;
   height: 246px;
-  background-image: url("../images/landieBottomLeft.png");
+  background-image: url("./images/landieBottomLeft.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -730,7 +730,7 @@ html {
 .landie__topRight {
   width: 100%;
   height: 238px;
-  background-image: url("../images/landieTopRight.png");
+  background-image: url("./images/landieTopRight.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -742,7 +742,7 @@ html {
 .landie__bottomRight {
   width: 100%;
   height: 205px;
-  background-image: url("../images/landieBottomRight.png");
+  background-image: url("./images/landieBottomRight.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
