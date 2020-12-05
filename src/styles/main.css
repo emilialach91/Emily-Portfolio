@@ -57,6 +57,8 @@ html {
   margin: 65px 0 0 100px;
   color: white;
   font-size: 25px;
+  cursor: pointer;
+  color: white;
 }
 
 @media (max-width: 720px) {
@@ -181,7 +183,6 @@ html {
   font-family: 'Lato';
   font-weight: 300;
   margin-left: 100px;
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -191,6 +192,7 @@ html {
           flex-direction: row;
   margin-bottom: 25px;
   cursor: pointer;
+  color: white;
 }
 
 @media (max-width: 720px) {
@@ -207,7 +209,7 @@ html {
 }
 
 .fa-angle-down {
-  margin-left: 15px;
+  margin: 6px 0 0 15px;
   font-size: 20px;
 }
 
@@ -280,6 +282,14 @@ html {
 .hero__item.effect.effect:hover:after, .hero__item.effect.effect:hover:before {
   width: 100%;
   height: 100%;
+}
+
+.logoLink {
+  color: white;
+}
+
+.logoLink:hover {
+  color: white;
 }
 
 .project {
@@ -881,17 +891,13 @@ html {
   color: black;
 }
 
-.gitHub:hover {
+.gitHub:hover, .linkedIn:hover {
   color: black;
 }
 
 .linkedIn {
   color: black;
   text-align: right;
-}
-
-.linkedIn:hover {
-  color: black;
 }
 
 #carouselSurf, #carouselMariposa, #carouselLandie {

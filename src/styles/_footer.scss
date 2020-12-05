@@ -17,7 +17,6 @@
         @include small {
             font-size: 20px;
         }
-
     }
 
     &__mail{
@@ -49,7 +48,6 @@
 
         @include small {
             font-size: 15px;
-
         }
     } 
 }
@@ -66,7 +64,7 @@
     color: black;
 }
 
-.gitHub:hover {
+.gitHub:hover, .linkedIn:hover {
     color:black;
 }
 
@@ -75,7 +73,4 @@
     text-align: right;
 }
 
-.linkedIn:hover{
-    color:black;
-}
 

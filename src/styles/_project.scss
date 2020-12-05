@@ -53,6 +53,7 @@
         @include medium {
             margin: 0 30px;
         }
+
         @include small {
             margin: 0 20px;
         }
@@ -343,8 +344,7 @@
 }
 
 .project__row--reverse{
-
-    @include extraLarge {
+     @include extraLarge {
         flex-direction: column-reverse;
      }
 
@@ -362,5 +362,5 @@
     display: block;
     width: 100%;
     height: 100%;
-  }
+}
 
