@@ -106,3 +106,35 @@ a:link {
 .project__button:focus, .hero__item:focus{
   outline: none;
 }
+ 
+
+@include medium {
+  .project__button.effect.effect::after, .project__button.effect.effect::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    transition: all 0.5s ease;
+    border-radius: 2px;
+  }
+
+.project__button.effect.effect::after {
+  bottom: 3px;
+  right: 3px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color:#223636 ;
+  border-right-color:#223636 ;
+}
+
+.project__button.effect.effect::before {
+  top: 3px;
+  left: 3px;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color:#223636 ;
+  border-left-color:#223636 ;
+}
+}
