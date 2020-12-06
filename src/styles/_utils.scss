@@ -1,4 +1,4 @@
-$extraLarge: 1250px;
+$extraLarge: 1300px;
 @mixin extraLarge {
     @media (max-width: #{$extraLarge}) {
         @content;
