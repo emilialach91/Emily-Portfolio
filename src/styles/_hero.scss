@@ -5,6 +5,13 @@
     background-position: 50% 60%;
     background-repeat: no-repeat;
 
+    @include medium {
+      background-image: url('./images/background-mobile-hero.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
     &__container {
       height: 100vh;
       display: flex;
