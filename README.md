@@ -1,6 +1,6 @@
 # Portfolio
 
-www.emilia-lach.dev
+https://emilia-lach.dev/
 
 ## Overview
 I am front end developer based in Kent, UK. I have experience in designing, developing and deploying websites.  I am passionate about frontend development, love new features and precise, legible code. 
