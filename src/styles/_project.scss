@@ -86,7 +86,14 @@
              font-size: 15px;
          }
     }
+
+    &__arrow {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
+
 
 .surf {
     min-width: 708px;
@@ -359,6 +366,7 @@
      @include extraLarge {
         flex-direction: column-reverse;
      }
+     
 
      @include carousel{
         flex-direction: column;
@@ -377,3 +385,38 @@
     height: 100%;
 }
 
+.down {
+    font-size: 35px;
+    margin: 0 10px 25px 10px;
+    outline: none;
+    color: rgb(178, 180, 180);
+}
+
+.down:hover {
+    animation: bounceIt 2s infinite;
+    transition: ease-in-out 0.2s;
+    color: rgb(28, 116, 119);
+
+    @include medium {
+        animation: none;
+        color: rgb(178, 180, 180);
+    }
+}
+
+@keyframes bounceIt {
+    0%{
+      transform: translate(0, 3px);
+    }
+    25%{
+      transform: translate(0,-3px);
+    }
+    50%{
+      transform: translate(0,3px);
+    }
+    75%{
+      transform: translate(0,-3px);
+    }
+    100%{
+        transform: translate(0,3px);
+    }
+  }

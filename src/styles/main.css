@@ -205,7 +205,7 @@
 
 .fa-angle-down {
   margin: 6px 0 0 15px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .animated {
@@ -447,6 +447,16 @@
   .project__description {
     font-size: 15px;
   }
+}
+
+.project__arrow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .surf {
@@ -840,6 +850,75 @@
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.down {
+  font-size: 35px;
+  margin: 0 10px 25px 10px;
+  outline: none;
+  color: #b2b4b4;
+}
+
+.down:hover {
+  -webkit-animation: bounceIt 2s infinite;
+          animation: bounceIt 2s infinite;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  color: #1c7477;
+}
+
+@media (max-width: 720px) {
+  .down:hover {
+    -webkit-animation: none;
+            animation: none;
+    color: #b2b4b4;
+  }
+}
+
+@-webkit-keyframes bounceIt {
+  0% {
+    -webkit-transform: translate(0, 3px);
+            transform: translate(0, 3px);
+  }
+  25% {
+    -webkit-transform: translate(0, -3px);
+            transform: translate(0, -3px);
+  }
+  50% {
+    -webkit-transform: translate(0, 3px);
+            transform: translate(0, 3px);
+  }
+  75% {
+    -webkit-transform: translate(0, -3px);
+            transform: translate(0, -3px);
+  }
+  100% {
+    -webkit-transform: translate(0, 3px);
+            transform: translate(0, 3px);
+  }
+}
+
+@keyframes bounceIt {
+  0% {
+    -webkit-transform: translate(0, 3px);
+            transform: translate(0, 3px);
+  }
+  25% {
+    -webkit-transform: translate(0, -3px);
+            transform: translate(0, -3px);
+  }
+  50% {
+    -webkit-transform: translate(0, 3px);
+            transform: translate(0, 3px);
+  }
+  75% {
+    -webkit-transform: translate(0, -3px);
+            transform: translate(0, -3px);
+  }
+  100% {
+    -webkit-transform: translate(0, 3px);
+            transform: translate(0, 3px);
+  }
 }
 
 .contact {
