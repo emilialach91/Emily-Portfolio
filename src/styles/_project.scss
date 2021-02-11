@@ -376,7 +376,7 @@
 
 .project--background{
     background-color: rgb(247, 252, 252);
-    box-shadow: 0px -2px 20px rgb(234, 235, 238), 0px 2px 20px rgb(234, 235, 238);;
+    box-shadow:  0px 2px 20px rgb(234, 235, 238);;
 }
 
 .divLink {
@@ -422,3 +422,31 @@
         transform: translate(0,3px);
     }
   }
+
+.organizer__left {
+width: 100%;
+height: 100%;
+background-image: url('./images/organizer-left.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+transition: all .3s ease-in-out;
+cursor: pointer;
+}
+
+.organizer__right {
+width: 100%;
+height: 100%;
+background-image: url('./images/organizer-right.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+transition: all .3s ease-in-out;
+cursor: pointer;
+margin-left: 40px;
+}
+
+.organizer__left:hover,
+.organizer__right:hover{
+    transform: scale(1.05); 
+}

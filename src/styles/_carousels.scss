@@ -1,4 +1,4 @@
-#carouselSurf, #carouselMariposa, #carouselLandie{
+#carouselSurf, #carouselMariposa, #carouselLandie, #carouselOrganizer{
     display: none;
 
     @include carousel {
@@ -6,6 +6,11 @@
         width: 100%;
         margin-bottom: 40px;
     }
+}
+
+#carouselOrganizer {
+    // height: 400px;
+    max-width: 500px;
 }
 
 .arrow{
