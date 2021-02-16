@@ -30,9 +30,14 @@ npm run start:dev
 
 ## Preview
 
+
 ### Hero
 
 ![Hero](https://user-images.githubusercontent.com/59490664/103244011-835dae00-4953-11eb-8740-e73d15018112.png)
+
+### My projects
+
+![My projects](https://user-images.githubusercontent.com/59490664/108116001-dc63db80-7092-11eb-9dd8-dd7fa20d64fb.png)
 
 ### My projects
 
