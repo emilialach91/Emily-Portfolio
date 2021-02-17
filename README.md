@@ -37,11 +37,11 @@ npm run start:dev
 
 ### My projects
 
-![My projects](https://user-images.githubusercontent.com/59490664/108208712-4c20a780-7121-11eb-9386-6a500c99ed9e.png)
+![My projects](https://user-images.githubusercontent.com/59490664/108209270-02848c80-7122-11eb-972d-b8a876715be2.png)
 
 ### My projects
 
-![My projects](https://user-images.githubusercontent.com/59490664/108208817-707c8400-7121-11eb-8f06-d9add610f85d.png)
+![My projects](https://user-images.githubusercontent.com/59490664/108209007-ad487b00-7121-11eb-900b-e4eebd07b5ea.png)
 
 ### My projects
 
