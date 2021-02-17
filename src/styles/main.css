@@ -952,6 +952,127 @@
           transform: scale(1.05);
 }
 
+.covid {
+  min-width: 698px;
+  height: 473px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 40px;
+}
+
+@media (max-width: 1300px) {
+  .covid {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1120px) {
+  .covid {
+    width: 698px;
+    margin: 20px 0 0 0;
+  }
+}
+
+@media (max-width: 890px) {
+  .covid {
+    display: none;
+  }
+}
+
+.covid__left {
+  height: 100%;
+  width: 301px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.covid__topLeft {
+  width: 100%;
+  height: 203px;
+  background-image: url("./images/covid19-topLeft.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.covid__bottomLeft {
+  width: 100%;
+  height: 267px;
+  background-image: url("./images/covid19-bottomLeft.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.covid__right {
+  height: 100%;
+  width: 363px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.covid__topRight {
+  width: 100%;
+  height: 236px;
+  background-image: url("./images/covid19-topRight.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.covid__bottomRight {
+  width: 100%;
+  height: 236px;
+  background-image: url("./images/covid19-bottomRight.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.covid__topLeft:hover,
+.covid__bottomLeft:hover,
+.covid__topRight:hover,
+.covid__bottomRight:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .contact {
   width: 100%;
   background-color: #f7fcfc;
@@ -1053,12 +1174,12 @@
   text-align: right;
 }
 
-#carouselSurf, #carouselMariposa, #carouselLandie, #carouselOrganizer {
+#carouselSurf, #carouselMariposa, #carouselLandie, #carouselOrganizer, #carouselCovid {
   display: none;
 }
 
 @media (max-width: 890px) {
-  #carouselSurf, #carouselMariposa, #carouselLandie, #carouselOrganizer {
+  #carouselSurf, #carouselMariposa, #carouselLandie, #carouselOrganizer, #carouselCovid {
     display: initial;
     width: 100%;
     margin-bottom: 40px;

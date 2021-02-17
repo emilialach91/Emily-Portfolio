@@ -1,4 +1,4 @@
-#carouselSurf, #carouselMariposa, #carouselLandie, #carouselOrganizer{
+#carouselSurf, #carouselMariposa, #carouselLandie, #carouselOrganizer, #carouselCovid{
     display: none;
 
     @include carousel {
@@ -9,7 +9,6 @@
 }
 
 #carouselOrganizer {
-
     max-width: 500px;
 }
 
